@@ -10,12 +10,9 @@ namespace CodingAlgorithms
     //Reverse a string
     public static class ReverseString
     {
-        public static string Reverse(string x)
+        public static void Reverse()
         {
-            string result = "";
-            for (int i = x.Length - 1; i >= 0; i--)
-                result += x[i];
-            return result;
+            Console.WriteLine("Dupa");
         }
     }
 }
