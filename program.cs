@@ -13,6 +13,7 @@ namespace CodingAlgorithms
         public static void Reverse()
         {
             Console.WriteLine("Dupa");
+            Console.WriteLine("Kupa");
         }
     }
 }
